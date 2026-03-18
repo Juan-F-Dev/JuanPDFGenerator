@@ -1,4 +1,4 @@
-
+import { Inspector } from '../components/Inspector'; // Importar
 import { Artboard } from '../editor/Artboard';
 
 export function Main() {
@@ -20,14 +20,7 @@ export function Main() {
           <Artboard />
         </section>
 
-        <aside className="w-96  border-l border-slate-300 p-4 shadow-sm shrink-0">
-          <h2 className="text-xs font-bold text-slate-800 uppercase mb-4">
-            Propiedades
-          </h2>
-          <p className="text-sm text-slate-400 italic">
-            Selecciona un elemento para editar
-          </p>
-        </aside>
+        <Inspector />
       </main>
     </>
   );
